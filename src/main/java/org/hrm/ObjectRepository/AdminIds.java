@@ -1,5 +1,5 @@
-//package org.hrm.ObjectRepository;
-//
+package org.hrm.ObjectRepository;
+////
 //public enum AdminIds {
 //
 //1001("1001"),1002("1002"),1003("1003"),1004("1004");

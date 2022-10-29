@@ -55,7 +55,6 @@ public class WebDriverUtility {
 			break;
 		}
 		return driver;
-
 	}
 
 	/**
@@ -108,6 +107,7 @@ public class WebDriverUtility {
 	/**
 	 * This method is used to do mouse hover Action
 	 * 
+	 * 
 	 * @param driver
 	 * @param element
 	 */
@@ -117,7 +117,6 @@ public class WebDriverUtility {
 
 	/**
 	 * This method is used to handle dropdownlist by values
-	 * 
 	 * @param element
 	 * @param value
 	 */
@@ -132,7 +131,7 @@ public class WebDriverUtility {
 	 * @param driver
 	 * @param element
 	 */
-	public void doublelickAction(WebDriver driver, WebElement element) {
+	public void doubleclickAction(WebDriver driver, WebElement element) {
 		new Actions(driver).doubleClick(element).perform();
 	}
 

@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.hrm.TestNg.createBranchTest">
+      <class name="org.hrm.TestNg.CreateAdminTest">
         <methods>
+          <include name="createAdminTest"/>
           <include name="methodTearDown"/>
-          <include name="CreateBranchTest"/>
           <include name="ClassSetup"/>
           <include name="methodsetUp"/>
           <include name="classTeardown"/>
         </methods>
-      </class> <!-- org.hrm.TestNg.createBranchTest -->
+      </class> <!-- org.hrm.TestNg.CreateAdminTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

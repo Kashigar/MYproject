@@ -22,8 +22,9 @@ public class FetchMultipleValuesFromExcel {
 			for(int j=1;j<sheet.getRow(i).getLastCellNum();j++)
 			{
 				String value = df.formatCellValue(sheet.getRow(i).getCell(j));
-				System.out.println(value);
+				System.out.print(value+ "||");
 			}
+			System.out.println();
 		}
 	}
 
