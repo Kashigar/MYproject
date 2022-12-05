@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.hrm.TestNg.CreateAdminTest">
+      <class name="CrmTests.MakeMyTripTest">
         <methods>
-          <include name="createAdminTest"/>
-          <include name="methodTearDown"/>
-          <include name="ClassSetup"/>
-          <include name="methodsetUp"/>
-          <include name="classTeardown"/>
+          <include name="checkFlightTest"/>
         </methods>
-      </class> <!-- org.hrm.TestNg.CreateAdminTest -->
+      </class> <!-- CrmTests.MakeMyTripTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

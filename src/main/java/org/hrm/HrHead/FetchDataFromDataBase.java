@@ -41,8 +41,8 @@ public class FetchDataFromDataBase {
 		}
 		}
 		finally {
-			//step 7: close the db connection
-			connection.close();//mandatory
+			
+			connection.close();
 			System.out.println("Connection closed successfully");
 		}
 		
